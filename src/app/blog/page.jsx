@@ -11,7 +11,8 @@ const page = () => {
             <div className="navbar-brand"><Link href="./index.html">
                 <img className="logo-dark" src="./assets/img/logox.png" srcset="./assets/img/logox.png 2x" width="80" height="80" alt="" />
                 <img className="logo-light" src="./assets/img/logox.png" srcset="./assets/img/logox.png 2x" width="80" height="80" alt="" />
-              </Link></div>
+              </Link>
+              </div>
             <div className="navbar-other ms-auto">
               <ul className="navbar-nav flex-row align-items-center">
                 <li className="nav-item d-lg-none">
@@ -70,6 +71,19 @@ const page = () => {
       </nav>
     
     </header>
+   
+    <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-300" data-image-src="./assets/img/photos/bg26.png">
+      <div className="container pt-17 pb-19 pt-md-18 pb-md-17 text-center">
+        <div className="row">
+          <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="slideInDown" data-group="page-title">
+            <h1 className="display-1 text-white fs-60 mb-4 px-md-15 px-lg-0">Business News</h1>
+            <p className="lead fs-24 text-white lh-sm mb-7 mx-md-13 mx-lg-10">Welcome to our journal. Here you can find the latest company news and business articles.<span className="underline">long-term relationships</span> with customers.</p>
+          </div>
+         
+        </div>
+        
+      </div>
+      </section>
    
     <section className="wrapper image-wrapper bg-image bg-overlay bg-overlay-300" data-image-src="./assets/img/photos/bg26.png">
       <div className="container pt-17 pb-19 pt-md-18 pb-md-17 text-center">
